@@ -15,18 +15,18 @@ session = rbmx_ProjectInitialization();
 
 %% ACTIVITY IDENTIFICATION
 
-% report/specify/execute
+% report/execute
 fprintf('\nACTIVITY IDENTIFICATION\n')
 session = session.activityIdentification.function(session);
 
 %% EVENT DETECTION
 
-% report/specify/execute
+% report/execute
 fprintf('\nEVENT DETECTION\n')
 session = session.eventDetection.function(session);
 
 %% ANALYSIS
 
-% report/specify/execute
+% report/execute
 fprintf('\nANALYSIS\n')
 session = session.analysis.function(session);
