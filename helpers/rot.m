@@ -4,7 +4,7 @@ function [ v2 ] = rot( r, rtype, v1, inverse)
 %   rot rotates the vector v in frame 1 (v1) using the rotator 'r' 
 %   (quaternion, direction cosine matrix, or euler angles) to be expressed
 %   in frame 2 (v2).  The rotator r should describe how one would rotate
-%   frame 1 to align with frame 2.
+%   frame 2 to align with frame 1.
 %
 %----------------------------INPUTS----------------------------------------
 %
