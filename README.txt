@@ -1,5 +1,5 @@
 Script: RemoteBMX
-Author: Reed Gurchiek, reed.gurchiek@uvm.edu, June 2019
+Author: Reed D. Gurchiek, reed.gurchiek@uvm.edu, June 2019
 
 SUMMARY:
 RemoteBMX is a pipeline for biomechanical analysis of human movement in remote environments (i.e. daily life). There are three basic steps: (1) activity identification: activities being evaluated are identified from wearable sensor data (e.g. walking), (2) event detection: task specific events are identified that may be useful for further analysis (e.g. foot contact and foot off events during walking), and (3) analysis: the various signals from the wearable sensors are processed to compute informative descriptors of the identified tasks. RemoteBMX requires MATLAB version R2018a or later.
