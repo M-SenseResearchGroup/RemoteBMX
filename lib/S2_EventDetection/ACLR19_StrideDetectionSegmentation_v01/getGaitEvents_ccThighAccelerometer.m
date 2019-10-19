@@ -163,11 +163,7 @@ else
                     swingStart0 = swingStart0(swingStart00);
                 end
 
-                % swing seems to start at or before this instant
-                % could probably better estimate with better sampling
-                % frequency
-                % with more rigorous validation may be able to apply an
-                % offset...
+                % get swing start
                 swingStart(i) = time(swingStart0);
 
                 % get next valley
